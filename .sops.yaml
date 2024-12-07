@@ -1,0 +1,4 @@
+creation_rules:
+  - gcp_kms: projects/class-activity-435807/locations/northamerica-northeast1/keyRings/my-keyring/cryptoKeys/my-key
+    path_regex: '.*\.yaml$'
+    encrypted_regex: '^(data)$'
